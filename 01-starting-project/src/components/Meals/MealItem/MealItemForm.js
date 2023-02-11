@@ -3,7 +3,7 @@ import classes from "./MealItemForm.module.css";
 
 const MealItemForm = (props) => {
   return (
-    <form action="" className={classes.form}>
+    <form className={classes.form}>
       <Input
         label="Amount"
         input={{
